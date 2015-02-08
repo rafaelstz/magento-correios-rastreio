@@ -1,2 +1,2 @@
-# magento-correios-rastreio
+# Magento-correios-rastreio
 Módulo para rastrear encomendas pelos Correios.
