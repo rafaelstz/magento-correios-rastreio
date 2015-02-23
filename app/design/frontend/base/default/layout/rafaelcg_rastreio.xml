@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<layout>
+	<cms_index_index>
+		<reference name="head">
+			<action method="addItem">
+				<type>skin_css</type>
+				<name>rafaelcg/rastreio/rastreio.css</name>
+				<params/>
+			</action>
+		</reference>
+		<reference name="left">
+			<block type="rafaelcg_rastreio/rastreio" name="rastreio" template="rafaelcg/rastreio.phtml">
+				<block type="rafaelcg_rastreio/rastreio" name="rastreio" as="rastreio"
+					   template="rafaelcg/rastreio.phtml"/>
+			</block>
+			<action method="unsetChild" ifconfig="rafaelcg_rastreio/rastreio_group/active">
+				<child>rastreio</child>
+			</action>
+		</reference>
+	</cms_index_index>
+</layout>
