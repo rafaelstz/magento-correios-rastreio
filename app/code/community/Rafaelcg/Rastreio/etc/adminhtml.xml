@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <rafaelcg_rastreio module="rafaelcg_rastreio" translate="title">
+                                        <title>Rastreio</title>
+                                        <sort_order>10</sort_order>
+                                    </rafaelcg_rastreio>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

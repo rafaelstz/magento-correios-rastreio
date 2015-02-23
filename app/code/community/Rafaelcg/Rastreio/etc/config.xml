@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Rafaelcg_Rastreio>
+			<version>1.0.0</version>
+		</Rafaelcg_Rastreio>
+	</modules>
+	<global>
+		<models>
+			<rafaelcg_rastreio>
+				<class>Rafaelcg_Rastreio_Model</class>
+				<resourceModel>rafaelcg_rastreio_resource</resourceModel>
+			</rafaelcg_rastreio>
+			<rafaelcg_rastreio_resource>
+				<class>Rafaelcg_Rastreio_Model_Resource</class>
+			</rafaelcg_rastreio_resource>
+		</models>
+		<blocks>
+			<rafaelcg_rastreio>
+				<class>Rafaelcg_Rastreio_Block</class>
+			</rafaelcg_rastreio>
+		</blocks>
+		<helpers>
+			<rafaelcg_rastreio>
+				<class>Rafaelcg_Rastreio_Helper</class>
+			</rafaelcg_rastreio>
+		</helpers>
+	</global>
+	<frontend>
+		<routers>
+			<rafaelcg_rastreio>
+				<use>standard</use>
+				<args>
+					<module>Rafaelcg_Rastreio</module>
+					<frontName>Rafaelcg Rastreio</frontName>
+				</args>
+			</rafaelcg_rastreio>
+		</routers>
+		<layout>
+			<updates>
+				<rafaelcg_rastreio module="rafaelcg_rastreio">
+					<file>rafaelcg_rastreio.xml</file>
+				</rafaelcg_rastreio>
+			</updates>
+		</layout>
+	</frontend>
+	<default>
+		<rafaelcg_rastreio>
+			<rastreio_group>
+				<active>0</active>
+				<block_title>RASTREIE O SEU PEDIDO</block_title>
+				<block_text>insira o código do rastreamento dos correios que nós localizamos para você</block_text>
+				<block_background>#217FAA</block_background>
+			</rastreio_group>
+		</rafaelcg_rastreio>
+	</default>
+</config>

@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<config>
+	<tabs>
+		<rafaelcg translate="label">
+			<label>Rafaelcg</label>
+			<sort_order>10</sort_order>
+		</rafaelcg>
+	</tabs>
+	<sections>
+		<rafaelcg_rastreio translate="label">
+			<label>Rastreio</label>
+			<sort_order>200</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<tab>rafaelcg</tab>
+			<groups>
+				<rastreio_group translate="label">
+					<label>Configuração</label>
+					<sort_order>200</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<comment><![CDATA[<p><a href="https://github.com/rafaelstz/magento-correios-rastreio/issues" target="_blank">Sugestões e Contribuições</a><br></p><p>Exemplo de código para teste:<br/><strong>SS123456789BR</strong></p><hr>]]></comment>
+					<fields>
+						<active>
+							<label>Disable</label>
+							<sort_order>100</sort_order>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+							<comment>Desabilita a exibição do módulo</comment>
+						</active>
+						<block_title>
+							<label>Título do bloco</label>
+							<frontend_type>textarea</frontend_type>
+							<sort_order>200</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+							<comment>Permite o uso de HTML</comment>
+						</block_title>
+						<block_text>
+							<label>Texto do bloco</label>
+							<frontend_type>textarea</frontend_type>
+							<sort_order>300</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+							<comment>Permite o uso de HTML</comment>
+						</block_text>
+						<block_background>
+							<label>Background do bloco</label>
+							<frontend_type>text</frontend_type>
+							<sort_order>400</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>0</show_in_store>
+							<comment>Exemplo #217FAA ou blue</comment>
+						</block_background>
+					</fields>
+				</rastreio_group>
+			</groups>
+		</rafaelcg_rastreio>
+	</sections>
+</config>
