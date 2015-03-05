@@ -1,9 +1,13 @@
 <?php /* @var $this Rafaelcg_Rastreio_Block_Rastreio */ ?>
 <?php
-  $bg = $this->showBlockBackground();
-	if ($bg){$bg = "style=".$bg;}else{$bg = "";}
+	$bg = $this->showBlockBackground();
+	if ($bg):
 ?>
-<div class="rafaelcg_rastreio" <?php echo $bg; ?>>
+<style type="text/css">
+	.rafaelcg_rastreio{<?php echo $bg;?>;}
+</style >
+<?php endif; ?>
+<div class="rafaelcg_rastreio">
 	<div class="blocktitle">
 		<h3><?php echo $this->showBlockTitle(); ?></h3>
 	</div>
