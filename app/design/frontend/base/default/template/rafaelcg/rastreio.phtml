@@ -2,11 +2,14 @@
 <?php
 	$bg = $this->showBlockBackground();
 	if ($bg):
-?>
-<style type="text/css">
-	.rafaelcg_rastreio{<?php echo $bg;?>;}
-</style >
-<?php endif; ?>
+		?>
+
+		<style type="text/css">
+			.rafaelcg_rastreio{
+			<?php echo $bg;?>;
+				/*box-shadow: none;*/}
+		</style >
+	<?php endif; ?>
 <div class="rafaelcg_rastreio">
 	<div class="blocktitle">
 		<h3><?php echo $this->showBlockTitle(); ?></h3>
@@ -16,7 +19,7 @@
 	</div>
 	<form class="form" method="GET" action="http://websro.correios.com.br/sro_bin/txect01$.QueryList?" name="rastreamento" target="popup" onsubmit="window.open('', 'popup', 'width=800,height=350');">
 		<input type="hidden" name="P_TIPO" value="001">
-		<input class="input" type="text" name="P_COD_UNI" id="pcode-field" rows="1" size="14" wrap="VIRTUAL" placeholder="<?php echo $this->__('INSIRA o Número'); ?>" autocomplete="off" value="" />
+		<input class="input" type="text" name="P_COD_UNI" id="pcode-field" rows="1" size="14" wrap="VIRTUAL" placeholder="<?php echo $this->__('Código'); ?>" autocomplete="on" required value="" />
 		<input type="hidden" name="P_LINGUA" value="001" />
 		<input class="button" type="submit" value="<?php echo $this->__('Buscar') ?>" />
 	</form>
