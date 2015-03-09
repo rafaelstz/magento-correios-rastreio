@@ -49,8 +49,8 @@
 			<rastreio_group>
 				<active>0</active>
 				<block_title>RASTREIE O SEU PEDIDO</block_title>
-				<block_text>insira o código do rastreamento dos correios que nós localizamos para você</block_text>
-				<block_background>#217FAA</block_background>
+				<block_text>Insira o código do rastreamento dos correios</block_text>
+				<block_background>transparent linear-gradient(to bottom, #FCFCFC 0%, #F4F4F4 100%) repeat scroll 0px 0px</block_background>
 			</rastreio_group>
 		</rafaelcg_rastreio>
 	</default>
