@@ -1,9 +1,9 @@
-.rafaelcg_rastreio{ padding: 35px; float: left; color: #FFF; display: block; position: relative; margin-bottom: 2em;z-index: 10;}
+.rafaelcg_rastreio{ border-radius: 5px; box-shadow: 0 1px 1px 1px rgb(171, 171, 171), 0 2px 3px 3px rgb(255, 255, 255) inset; margin: 30px 0 5px; padding: 10px; float: left; background: transparent linear-gradient(to bottom, #FCFCFC 0%, #F4F4F4 100%) repeat scroll 0 0;}
 .rafaelcg_rastreio .blocktitle {max-width: 200px; margin: 0 auto;}
 .rafaelcg_rastreio .blocktitle img{float: left;}
-.rafaelcg_rastreio .blocktitle h3{ float: left; font-size: 1.5em; padding: 0; color: #FFF; font-weight: bold; text-align: center;}
+.rafaelcg_rastreio .blocktitle h3{ margin: 0;float: left; font-size: 1.5em; padding: 0; color: #333; font-weight: bold; text-align: center;}
 .rafaelcg_rastreio .blocktitle::after { content: ' ';display: block;width: 100%; background: url("rafaelcg_division.png") no-repeat center;height: 15px;float: left;margin: 15px 0; }
 .rafaelcg_rastreio .blocktext{ float: left; font-weight: 700; text-align: center; font-size: 0.9em; text-transform: uppercase; }
 .rafaelcg_rastreio .form{margin: 20px 0 0 0; display: block; float: left; width: 100%;position: relative;}
-.rafaelcg_rastreio .input{padding: 10px 60px 10px 10px; border-radius: 25px; border: none; color: #999; width: 100%;text-transform: uppercase;}
-.rafaelcg_rastreio .button{border: none; border-radius: 35px; background: black; text-transform: uppercase; font-size: 1em; position: absolute; right: 0; top: 0;}
+.rafaelcg_rastreio .input{padding: 8px 60px 8px 10px; border-radius: 25px; border: none; color: #999; width: 100%;text-transform: uppercase;}
+.rafaelcg_rastreio .button{border: none; border-radius: 35px; text-transform: uppercase; font-size: 0.9em;padding: 6px 10px; position: absolute; right: 0; top: 0;}
