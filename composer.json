@@ -1,0 +1,9 @@
+{
+  "name" : "rafaelstz/magento-correios-rastreio",
+  "type" : "project",
+  "description" : "Módulo de tracking na sidebar dos Correios para Magento.",
+  "require" : {
+    "php" : ">=5.4",
+    "squizlabs/php_codesniffer" : "~1"
+  },
+}
