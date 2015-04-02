@@ -1,4 +1,4 @@
-# Magento - Rastreio Correios [![Release 1.0.0](https://img.shields.io/badge/Release-1.0.1-green.svg)](https://github.com/rafaelstz/magento-correios-rastreio/issues)
+# Magento - Rastreio Correios [![Release 1.0.0](https://img.shields.io/badge/Release-1.0.2-green.svg)](https://github.com/rafaelstz/magento-correios-rastreio/issues)
 
 Rastreie suas encomendas diretamente da barra lateral com o WebService dos Correios e abrindo em um pop-up, haverá atualizações para atualizar via AJAX.
 
